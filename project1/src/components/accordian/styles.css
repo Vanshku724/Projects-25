@@ -1,0 +1,39 @@
+.wrapper{
+    display: flex;
+    max-height: 100vh;
+    max-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.wrapper button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.accordian{
+    width: 500px;
+}
+.item{
+    background-color: rgb(43, 1, 147);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: 2px solid rgb(4, 0, 255);
+}
+.title{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+}
+.content{
+    color: white;
+    height: auto;
+    
+}
